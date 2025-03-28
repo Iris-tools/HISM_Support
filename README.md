@@ -13,6 +13,10 @@ This is a support tool derived from ```ue4map-tools```, designed as a Blender ad
 * Retrieve the ```Rotation``` ```Translation``` ```Scale3D``` parameters
 * For each ```TransformData``` entry, duplicate the base object and apply its position, rotation, and scale accordingly
 
+### Important!
+Please make sure to use ```map_mesh_import.py``` from ```ue4map-tools``` first, and uncomment ```InstancedStaticMeshComponent``` before importing.
+Only after that should you run this script.
+
 ## How to Use
 
 * For usage instructions, please refer to:
